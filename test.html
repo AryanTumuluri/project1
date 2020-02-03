@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>V-PULSE Statistics</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="test1.css">
+
+</head>
+<body>
+    <div class="w3-container">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <br></br><br></br><p></p>
+            <a href="index.html">Find Doctor</a>
+            <a href="test.html">Statistics</a>
+            <a href="#">Clients</a>
+            <a href="#">Admin</a>
+          </div> 
+
+    <div id="main" class="active">
+    <ul><li></li>
+        <a> <span style="font-size:20px;cursor:pointer;text-shadow: 2px 2px 3px #000000;" onclick="openNav()">&#9776</span> </a>
+        <li></li>
+        <a style="cursor:pointer" href="test1.html">V-PULSE</a>
+        <li></li>
+        
+    
+    </ul></div>
+    <h4>Statistics</h4>
+    <div class="footer">
+      <p> © VNC Digital Services PvT LTD - All Rights Reserved  &nbsp;</p>
+      
+    </div>
+</div>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      document.body.style.backgroundColor = "white";
+    }
+    </script>
+    
+</body>
+</html>
